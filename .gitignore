@@ -33,4 +33,4 @@ node_modules
 *.swp
 *.*~
 
-*.bundle.js
+bundle.js
