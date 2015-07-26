@@ -6,11 +6,11 @@ In an effort to keep things simple, no additional Flux related libraries are use
 
 ## Description
 
-The UI contains 2 main components
+The UI contains 2 main components:
 - ShoppingCart: displays a list of cart items and lets users add new items to the cart
 - Notifications: keeps track of how many total items are in the cart
 
-Adding additional items to the cart through the UI will execute a number of things
+Adding additional items to the cart through the UI will cause this series of events to occur:
 
 1. Send an update request to the cart API
 2. Optimistically update the Flux store instead of waiting for a successful API response
