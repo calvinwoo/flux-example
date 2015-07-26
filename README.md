@@ -9,4 +9,4 @@ In an effort to keep things simple, no additional Flux related libraries are use
 npm install
 npm start
 ```
-`webpack-dev-server` should be running the app on http://localhost:8080/
+`webpack-dev-server` should be running the app on [http://localhost:8080/](http://localhost:8080/)
