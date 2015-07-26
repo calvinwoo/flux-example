@@ -11,6 +11,7 @@ The UI contains 2 main components
 - Notifications: keeps track of how many total items are in the cart
 
 Adding additional items to the cart through the UI will execute a number of things
+
 1. Send an update request to the cart API
 2. Optimistically update the Flux store instead of waiting for a successful API response
 3. Publish changes to listeners in the UI compoments
